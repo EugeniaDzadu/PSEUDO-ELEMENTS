@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bgimg{
+    background-image: url(./Summer.jpg);
+    width: 50%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in all 2.0s;
+    animation-name: changebackgroundimage;
+    animation-duration: 10.0s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes changebackgroundimage{
+    0%{
+        background-image: url(./Summer.jpg);
+    }
+
+    50%{
+        background-image: url(./Woman.jpeg);
+    }
+
+    100%{
+        background-image: url(./Gun.jpg);
+    }
+}

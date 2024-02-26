@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#btnaccount{
+    padding: 12px;
+    background-color: orangered;
+    color: #fff;
+    border-color: orangered;
+    transition: ease-in all 0.3s;
+    animation-name: changebackgroundcolor;
+    animation-duration: 5.0s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+#btnaccount:hover{
+    background-color: rgb(36, 35, 35);
+    color: red;
+    
+
+}
+
+/* @keyframes changebackgroundcolor{
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: yellow;
+    }
+
+} */
+
+@keyframes changebackgroundcolor{
+    0%{
+        background-color: burlywood;
+    }
+
+    20%{
+        background-color: darkslategrey;
+    }
+
+    50%{
+        background-color: gold;
+    }
+
+    70%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
